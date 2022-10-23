@@ -85,8 +85,8 @@ public class Main {
         System.out.println("при потере веса по 250 грамм в день нужный вес будет через "+ days1+ " дней");
         System.out.println("при потере веса по 500 грамм в день нужный вес будет через "+ days2+ " дней");
 
-        //Задача 8
-        System.out.println("// Задача 8");
+          //Задача 8
+        System.out.println("  // Задача 8");
     int payPerMonthsMasha = 67760;
     System.out.println("Зарплата Маши "+payPerMonthsMasha+" руб в месяц");
         int payPerYearMasha = payPerMonthsMasha*12;
