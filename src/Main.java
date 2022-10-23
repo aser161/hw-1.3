@@ -19,12 +19,12 @@ public class Main {
 
         // Задача 2
         System.out.println("// Задача 2");
-    float rub = 27.12f;
-    long fon = 987678965549L;
-    double num = 2.786;
+    float rise = 27.12f;
+    long road = 987678965549L;
+    double bolt = 2.786;
     boolean boxMore = box > 15;
-    int dol = 569;
-    short euro = -159;
+    int doll = 569;
+    short pear = -159;
     int apple = 27897;
     byte boy = 67;
     char x = 35;
@@ -87,27 +87,39 @@ public class Main {
 
         //Задача 8
         System.out.println("// Задача 8");
-    double payPerMonthsMasha = 67760;
-        double payPerYearMasha = payPerMonthsMasha*12;
-                System.out.println(payPerYearMasha);
-    double payPerMonthsDen = 83690;
-        double payPerYearDen = payPerMonthsDen*12;
-                System.out.println(payPerYearDen);
-    double payPerMonthsKris = 76230;
-        double payPerYearKris = payPerMonthsKris*12;
-                System.out.println(payPerYearKris);
+    int payPerMonthsMasha = 67760;
+    System.out.println("Зарплата Маши "+payPerMonthsMasha+" руб в месяц");
+        int payPerYearMasha = payPerMonthsMasha*12;
+        System.out.println("  За год Маша заработала "+payPerYearMasha +" руб");
 
-    double increasePayPerMonthsMasha = payPerMonthsMasha*1.1;
-           System.out.println(increasePayPerMonthsMasha);
-        double nowPayYMary = increasePayPerMonthsMasha*12;
+    int payPerMonthsDen = 83690;
+    System.out.println("Зарплата Дэна "+payPerMonthsDen+" руб в месяц");
+        int payPerYearDen = payPerMonthsDen*12;
+        System.out.println("  За год Дэн заработал "+payPerYearDen +" руб");
 
-    double increasePayPerMonthsDen = payPerMonthsDen*1.1;
-        System.out.println(increasePayPerMonthsDen);
-        double nowPayYDen = increasePayPerMonthsDen*12;
+    int payPerMonthsKris = 76230;
+        System.out.println("Зарплата Крис "+payPerMonthsKris+" руб в месяц");
+        int payPerYearKris = payPerMonthsKris*12;
+        System.out.println("  За год Крис заработала "+payPerYearKris +" руб");
 
-    double increasePayPerMonthsKris = payPerMonthsKris*1.1;
-        System.out.println(increasePayPerMonthsKris);
-        double nowPayYKris = increasePayPerMonthsKris*12;
+    int increasePayPerMonthsMasha = payPerMonthsMasha*11/10;
+           System.out.println("   Зарплата Маши после увеличения будет "+increasePayPerMonthsMasha+ " руб в месяц");
+        int nowPayYMary = increasePayPerMonthsMasha*12;
+        int totalMasha = nowPayYMary-payPerYearMasha;
+        System.out.println("   Заработает Маша  "+nowPayYMary+ " руб в год и ее годовой доход вырос на "+totalMasha);
+
+
+    int increasePayPerMonthsDen = payPerMonthsDen*11/10;
+        System.out.println("   Зарплата Дэна после увеличения будет "+increasePayPerMonthsDen+ " руб в месяц");
+        int nowPayYDen = increasePayPerMonthsDen*12;
+        int totalDen = nowPayYDen-payPerYearDen;
+        System.out.println("   Заработает Дэн  "+nowPayYDen+ " руб в год и его годовой доход вырос на "+totalDen);
+
+    int increasePayPerMonthsKris = payPerMonthsKris*11/10;
+        System.out.println("   Зарплата Крис после увеличени будет "+increasePayPerMonthsKris+ " руб в месяц");
+        int nowPayYKris = increasePayPerMonthsKris*12;
+        int totalKris = nowPayYKris-payPerYearKris;
+        System.out.println("   Заработает Крис  "+nowPayYKris+ " руб в год и ее годовой доход вырос на "+totalKris);
 
 
 
